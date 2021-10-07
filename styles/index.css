@@ -37,9 +37,12 @@ header {
     background-color: rgb(153, 27, 27);
     background-size: 600px;
     text-align: center;
-    font-size: 80px;
-    color: beige;
+  
     
+}
+h1{
+    font-size: 50px;
+    color: beige;
 }
 h2 {
     background-color: rgb(153, 27, 27);
@@ -53,14 +56,14 @@ p {
     
     font-size: large;
     font-weight: bold;
-    margin: 15px;
+    margin: auto;
     color: black;
     max-width: 600px;
     text-align: justify;
 }
 .banda {
     display: block;
-    margin: 15px;
+    margin: auto;
     width: 400px;
 }
 section {
@@ -75,9 +78,17 @@ section {
 } 
 
 
+
 .foot {
     background-color: rgb(160, 77, 77);
     background-size: 600px;
     height: 40px;
     color: beige;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-face{
+    padding: 5px;
+    width: 20px;
 }
